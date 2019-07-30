@@ -1,0 +1,46 @@
+.card{
+    height:5000px;
+}
+.part1{
+    background-image: url("../images/pizza2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    opacity: 0.9;
+    color: black;
+}
+.part1 img,h1{
+    float: left;
+}
+#resto{
+    position: relative;
+    right: 290px;
+    top: 15px;
+}
+.part1 h1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Crimson Pro', serif;
+}
+.part1 img{
+    position: relative;
+    bottom: 3px;
+}
+.part2{
+    margin-top: 30px;
+}
+.part2 p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 30px;
+    font-weight: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#SUBMIT{
+    margin-left: 500px;
+    margin-top:60px;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Crimson Pro', serif;
+}
