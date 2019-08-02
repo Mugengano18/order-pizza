@@ -3,9 +3,9 @@
 
 
 ## Description
-<img src="/home/wecode/Desktop/Moringa-school-projects/order-pizza/images/bomba.png">
+<img src="images/bomba.png">
 - This is the restaurant called La pizza bomba(which is the bomb pizza),it is an italian restaurant that makes pizzas for its customers and delivers them to their home.here are some of the pizzas they make:
-<img src="/home/wecode/Desktop/Moringa-school-projects/order-pizza/images/pepperoni-pizza.jpg">
+<img src="images/pepperoni-pizza.jpg">
 
 
 ## Techonoligies used
