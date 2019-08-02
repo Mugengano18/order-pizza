@@ -1,3 +1,23 @@
+//bussiness logic
+function order(size, crust, topping) {
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //user interface logic
 $(document).ready(function () {
     $("#orderm").click(function () {
@@ -41,5 +61,22 @@ $(document).ready(function () {
     })
     $("#pick").click(function () {
         $("#minute").toggle();
+    })
+    $("#check").click(function () {
+        var inputsize = $("#select1").val();
+        alert(inputsize);
+        var inputcrust = $("#select2").val();
+        alert(inputcrust);
+        var inputtopping = $("#select3").val();
+        alert(inputtopping);
+        var newOrder = new order(inputsize, inputcrust, inputtopping);
+
+        alert(newOrder);
+    })
+    $("#send").click(function(){
+        alert("thank you!!!you'll get the pizza in no time")
+    })
+    $("#submit").click(function(){
+        alert("Thank you!!!")
     })
 })
