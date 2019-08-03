@@ -12,624 +12,10 @@ var c = ["New england style", "grilled", "deep dish", "stuffed", "cast iron", "f
 var t = ["Sausage, caramelized onions, and fennel", "Pepperoni, tomatoes, mushrooms, and onion", "Pepperoni, sausage, green pepper, onion, and mushroom", "Grilled chicken, avocado, and cherry tomatoes", "Roasted Brussels sprouts and bacon or pancetta", "Sardines, red onions, and black olives", "Pesto with white beans, tomato, arugula, and Parmesan cheese", "Goat cheese with arugula and red onion", "Fried eggplant slices and black olives"]
 
 
-var sprice, cprize, tprice, totalPrice;
-function totalprice(size, crust, top) {
-    if (size === s[0]) {
-        sprice = 1000;
-        if (crust === c[0]) {
-            cprize = 300
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
 
-        }
-        else if (crust === c[1]) {
-            cprize = 400;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[2]) {
-            cprize = 400;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[3]) {
-            cprize = 300;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[4]) {
-            cprize = 500;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[5]) {
-            cprize = 300;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-
-
-    }
-    if (size === s[1]) {
-        sprice = 1500;
-        if (crust === c[0]) {
-            cprize = 300
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-
-        }
-        else if (crust === c[1]) {
-            cprize = 400;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[2]) {
-            cprize = 400;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[3]) {
-            cprize = 300;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[4]) {
-            cprize = 500;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[5]) {
-            cprize = 300;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-
-
-    }
-    if (size === s[2]) {
-        sprice = 2000;
-        if (crust === c[0]) {
-            cprize = 300
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-
-        }
-        else if (crust === c[1]) {
-            cprize = 400;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[2]) {
-            cprize = 400;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[3]) {
-            cprize = 300;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[4]) {
-            cprize = 500;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-        else if (crust === c[5]) {
-            cprize = 300;
-            if (top === t[0]) {
-                tprice = 500
-            }
-            else if (top === t[1]) {
-                tprice = 600;
-            }
-            else if (top === t[2]) {
-                tprice = 800;
-            }
-            else if (top === t[3]) {
-                tprice = 800;
-            }
-            else if (top === t[4]) {
-                tprice = 800;
-            }
-            else if (top === t[5]) {
-                tprice = 800;
-            }
-            else if (top === t[6]) {
-                tprice = 800;
-            }
-            else if (top === t[7]) {
-                tprice = 800;
-            }
-            else if (top === t[8]) {
-                tprice = 800;
-            }
-            else if (top === t[9]) {
-                tprice = 800;
-            }
-        }
-
-
-    }
-    totalPrice = sprice + cprize + tprice;
-    return totalPrice;
-}
-console.log(totalprice("small", "grilled", "Sausage, caramelized onions, and fennel"))
+// function totalprice(size, crust, top) {
+    
+// document.getElementById("total").innerHTML=(totalprice("small","New england style","Sausage, caramelized onions, and fennel")+ "rwf");
 
 
 
@@ -689,17 +75,762 @@ $(document).ready(function () {
     $("#pick").click(function () {
         $("#minute").toggle();
     })
+
     $("#check").click(function () {
-        var inputsize = $("#select1").val();
-        // console.log(inputsize);
-        var inputcrust = $("#select2").val();
-        // console.log(inputcrust);
-        var inputtopping = $("#select3").val();
-        // console.log(inputtopping);
-        var newOrder = new order(inputsize, inputcrust, inputtopping);
-        $(".result").append(inputcrust + ",")
+        $(".result").show(function () {
+            var inputsize = $("#select1").val();
+            // console.log(inputsize);
+            var inputcrust = $("#select2").val();
+            // console.log(inputcrust);
+            var inputtopping = $("#select3").val();
+            // console.log(inputtopping);
+            var newOrder = new order(inputsize, inputcrust, inputtopping);
+            $(".size").text(" " + inputsize);
+            $(".crust").text(" " + inputcrust);
+            $(".topping").text(" " + inputtopping);
+            console.log(totalPrice);
+            
+
+    var sprice, cprize, tprice, totalPrice;
+            if (inputsize === "small") {
+                sprice = 1000;
+                if (inputcrust === "New england style") {
+                    cprize = 300
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+        
+                }
+                else if (inputcrust === "grilled") {
+                    cprize = 400;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                }
+                else if (inputcrust === "deep dish") {
+                    cprize = 400;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                }
+                else if (inputcrust === "stuffed") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "cast iron") {
+                    cprize = 500;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "flat bread") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+        
+        
+            }
+            if (inputsize === "medium") {
+                sprice = 1500;
+                if (inputcrust === "New england style") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+        
+                }
+                else if (inputcrust === "grilled") {
+                    cprize = 400;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "deep dish") {
+                    cprize = 400;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "stuffed") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "cast iron") {
+                    cprize = 500;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "flat bread") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+        
+        
+            }
+            if (inputsize === "large") {
+                sprice = 2000;
+                if (inputcrust === "New england style") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+        
+                }
+                else if (inputcrust === "grilled") {
+                    cprize = 400;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "deep dish") {
+                    cprize = 400;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "stuffed") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust ===  "cast iron") {
+                    cprize = 500;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+                else if (inputcrust === "flat bread") {
+                    cprize = 300;
+                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                        tprice = 500;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
+                        tprice = 600;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pepperoni, sausage, green pepper, onion, and mushroom") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Grilled chicken, avocado, and cherry tomatoes") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Roasted Brussels sprouts and bacon or pancetta") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Sardines, red onions, and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Pesto with white beans, tomato, arugula, and Parmesan cheese") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Goat cheese with arugula and red onion") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    else if (inputtopping === "Fried eggplant slices and black olives") {
+                        tprice = 800;
+                        totalPrice = sprice + cprize + tprice;
+                    }
+                    
+                }
+            }
+
+        });
+
     })
 
+    
 
     $("#send").click(function () {
         alert("thank you!!!you'll get the pizza in no time")
