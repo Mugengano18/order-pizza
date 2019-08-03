@@ -1,15 +1,18 @@
 // business logic
 function order(size, crust, topping) {
-    this.size =size;
-    this.crust =crust;
-    this.topping =topping;
- }
+    this.size = size;
+    this.crust = crust;
+    this.topping = topping;
+}
+order.prototype.fullOrder = function () {
+    return this.size + " " + this.crust + " " + this.topping;
+}
 var s = ["small", "Medium", "large"];
 var c = ["New england style", "grilled", "deep dish", "stuffed", "cast iron", "flat bread"];
 var t = ["Sausage, caramelized onions, and fennel", "Pepperoni, tomatoes, mushrooms, and onion", "Pepperoni, sausage, green pepper, onion, and mushroom", "Grilled chicken, avocado, and cherry tomatoes", "Roasted Brussels sprouts and bacon or pancetta", "Sardines, red onions, and black olives", "Pesto with white beans, tomato, arugula, and Parmesan cheese", "Goat cheese with arugula and red onion", "Fried eggplant slices and black olives"]
 
 
-var sprice, cprize, tprice,totalPrice;
+var sprice, cprize, tprice, totalPrice;
 function totalprice(size, crust, top) {
     if (size === s[0]) {
         sprice = 1000;
@@ -623,10 +626,10 @@ function totalprice(size, crust, top) {
 
 
     }
-    totalPrice=sprice+cprize+tprice;
-    return  totalPrice;
+    totalPrice = sprice + cprize + tprice;
+    return totalPrice;
 }
-console.log(totalprice("small","grilled","Sausage, caramelized onions, and fennel"))
+console.log(totalprice("small", "grilled", "Sausage, caramelized onions, and fennel"))
 
 
 
@@ -688,15 +691,16 @@ $(document).ready(function () {
     })
     $("#check").click(function () {
         var inputsize = $("#select1").val();
-        console.log(inputsize);
+        // console.log(inputsize);
         var inputcrust = $("#select2").val();
-        console.log(inputcrust);
+        // console.log(inputcrust);
         var inputtopping = $("#select3").val();
-        console.log(inputtopping);
+        // console.log(inputtopping);
         var newOrder = new order(inputsize, inputcrust, inputtopping);
-
-
+        $(".result").append(inputcrust + ",")
     })
+
+
     $("#send").click(function () {
         alert("thank you!!!you'll get the pizza in no time")
     })

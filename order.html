@@ -87,7 +87,7 @@
                             <button type="button" class="btn btn-success" id="submit">Send</button>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-success" id="check">check your order</button>
+                    <button type="submit" class="btn btn-success" id="check">check your order</button>
                 </div>
                 <div class="column-md-3"></div>
             </div>
@@ -96,11 +96,13 @@
     <section class="result">
         <div class="row">
             <div class="column-md-3"></div>
-            <div class="column-md-8">
-                <div class="card">
+            <div class="column-md-8" id="summary">
                     <h2>Order Summary:</h2>
-                    <ul>
-
+                    <ul id="summary">
+                        <li>Size:<span class="size"></span></li>
+                        <li>Crust:<span class="crust"></span></li>
+                        <li>Topping:<span class="topping"></span></li>
+                        <li>Total Price:<span class="tPrice"></span></li>
                     </ul>
                 </div>
             </div>
