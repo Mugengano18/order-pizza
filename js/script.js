@@ -1,8 +1,8 @@
 // business logic
-function order(size, crust, topping) {
-    this.size = size;
-    this.crust = crust;
-    this.topping = topping;
+function order() {
+    this.size = [];
+    this.crust = [];
+    this.topping = [];
 }
 order.prototype.fullOrder = function () {
     return this.size + " " + this.crust + " " + this.topping;
@@ -14,7 +14,7 @@ var t = ["Sausage, caramelized onions, and fennel", "Pepperoni, tomatoes, mushro
 
 
 // function totalprice(size, crust, top) {
-    
+
 // document.getElementById("total").innerHTML=(totalprice("small","New england style","Sausage, caramelized onions, and fennel")+ "rwf");
 
 
@@ -78,27 +78,29 @@ $(document).ready(function () {
 
     $("#check").click(function () {
         $(".result").show(function () {
-            var inputsize = $("#select1").val();
-            // console.log(inputsize);
-            var inputcrust = $("#select2").val();
-            // console.log(inputcrust);
-            var inputtopping = $("#select3").val();
-            // console.log(inputtopping);
-            var newOrder = new order(inputsize, inputcrust, inputtopping);
-            $(".size").text(" " + inputsize);
-            $(".crust").text(" " + inputcrust);
-            $(".topping").text(" " + inputtopping);
-            console.log(totalPrice);
+                var inputsize = $("#select1").val();
+                console.log(inputsize);
+                var inputcrust = $("#select2").val();
+                console.log(inputcrust);
+                var inputtopping = $("#select3").val();
+                console.log(inputtopping);
+                var newOrder = new order(inputsize, inputcrust, inputtopping);
+                
+                console.log(newOrder)
+                $(".size").text(" " + inputsize);
+                $(".crust").text(" " + inputcrust);
+                $(".topping").text(" " + inputtopping);
+                
             
-
-    var sprice, cprize, tprice, totalPrice;
-            if (inputsize === "small") {
+            var sprice, cprize, tprice, totalPrice;
+            if (inputsize === 'small') {
                 sprice = 1000;
-                if (inputcrust === "New england style") {
+                if (inputcrust === 'New england style') {
                     cprize = 300
-                    if (inputtopping === "Sausage, caramelized onions, and fennel") {
+                    if (inputtopping === 'Sausage, caramelized onions, and fennel') {
                         tprice = 500;
                         totalPrice = sprice + cprize + tprice;
+
                     }
                     else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
                         tprice = 600;
@@ -132,7 +134,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-        
+
                 }
                 else if (inputcrust === "grilled") {
                     cprize = 400;
@@ -250,7 +252,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "cast iron") {
                     cprize = 500;
@@ -290,7 +292,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "flat bread") {
                     cprize = 300;
@@ -330,10 +332,10 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
-        
-        
+
+
             }
             if (inputsize === "medium") {
                 sprice = 1500;
@@ -375,8 +377,8 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
-        
+
+
                 }
                 else if (inputcrust === "grilled") {
                     cprize = 400;
@@ -416,7 +418,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "deep dish") {
                     cprize = 400;
@@ -456,7 +458,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "stuffed") {
                     cprize = 300;
@@ -496,7 +498,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "cast iron") {
                     cprize = 500;
@@ -536,7 +538,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "flat bread") {
                     cprize = 300;
@@ -576,10 +578,10 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
-        
-        
+
+
             }
             if (inputsize === "large") {
                 sprice = 2000;
@@ -621,8 +623,8 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
-        
+
+
                 }
                 else if (inputcrust === "grilled") {
                     cprize = 400;
@@ -662,7 +664,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "deep dish") {
                     cprize = 400;
@@ -702,7 +704,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "stuffed") {
                     cprize = 300;
@@ -742,9 +744,9 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
-                else if (inputcrust ===  "cast iron") {
+                else if (inputcrust === "cast iron") {
                     cprize = 500;
                     if (inputtopping === "Sausage, caramelized onions, and fennel") {
                         tprice = 500;
@@ -782,7 +784,7 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
                 else if (inputcrust === "flat bread") {
                     cprize = 300;
@@ -822,15 +824,16 @@ $(document).ready(function () {
                         tprice = 800;
                         totalPrice = sprice + cprize + tprice;
                     }
-                    
+
                 }
             }
+            $(".tprice").text(" " + totalPrice + "rwf");
 
         });
-
     })
 
-    
+
+
 
     $("#send").click(function () {
         alert("thank you!!!you'll get the pizza in no time")
