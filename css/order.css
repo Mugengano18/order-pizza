@@ -30,3 +30,14 @@ footer{
   font-size: 15px;
   text-align: center;
 }
+#order{
+  position: relative;
+  left:400px;
+}
+.card{
+  color: black;
+  font-family: 'Pacifico', cursive;
+}
+.card h2{
+  text-align: center;
+}

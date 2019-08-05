@@ -81,7 +81,7 @@ $(document).ready(function () {
                 newOrder.size.push(inputsize);
                 newOrder.crust.push(inputcrust);
                 newOrder.topping.push(inputtopping);
-                newOrder.price.push(total(inputsize, inputcrust, inputtopping,inputnbr)),
+                newOrder.price.push(total(inputsize, inputcrust, inputtopping,inputnbr));
                 console.log(newOrder);
                 $(".size").text(" " + inputsize);
                 $(".crust").text(" " + inputcrust);
