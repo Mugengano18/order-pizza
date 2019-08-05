@@ -29,4 +29,4 @@
 
 ## lincense
 
-- copyright &copy la pizza bomba MugenganoAlice
+- copyright la pizza bomba MugenganoAlice All Rights Reserved
