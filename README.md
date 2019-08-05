@@ -20,11 +20,15 @@
 
 - they asked us to get the user input by getting all their flavours
 - to get them and calculate the total price of the entered products
+- the user should enter many orders as he wants
 
 ### pseudocode
 
 - I firstly made the html content and style it
 - then after styling i will try to add javascript and jquery in the content to make the website interactive
+- i used the if statement to determine the total prices of all the ordered items
+- I then retrived the user's input using constructer to use it in the if
+- I then made the pop up messages telling the user that we received his or her order
 
 
 ## contacts
