@@ -9,20 +9,6 @@ order.prototype.fullOrder = function () {
 }
 
 
-// function totalprice(size, crust, top) {
-
-// document.getElementById("total").innerHTML=(totalprice("small","New england style","Sausage, caramelized onions, and fennel")+ "rwf");
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -29,4 +29,4 @@
 
 ## lincense
 
-- copyright (&copy) la pizza bomba
+- copyright &copy la pizza bomba MugenganoAlice
