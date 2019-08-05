@@ -27,6 +27,12 @@
 - then after styling i will try to add javascript and jquery in the content to make the website interactive
 
 
+## contacts
+
+- name:Mugengano alice
+- Tel:0787831940
+- email:mugenganoa@gmail.com
+
 ## lincense
 
 - copyright la pizza bomba MugenganoAlice All Rights Reserved
