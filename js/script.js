@@ -93,15 +93,15 @@ $(document).ready(function () {
 
 
                 var sprice, cprize, tprice, totalPrice;
-                function totalprice(inputsize, inputcrust, inputtopping) {
-                if (inputsize === 'small') {
+                function total(inputsize,inputcrust,inputtopping) {
+                if (inputsize === 'Small') {
                     sprice = 1000;
-                    if (inputcrust === 'New england style') {
+                    // console.log(sprice);
+                    if (inputcrust === 'New Greek Style') {
                         cprize = 300
                         if (inputtopping === 'Sausage, caramelized onions, and fennel') {
                             tprice = 500;
                             totalPrice = sprice + cprize + tprice;
-
                         }
                         else if (inputtopping === "Pepperoni, tomatoes, mushrooms, and onion") {
                             tprice = 600;
@@ -176,7 +176,7 @@ $(document).ready(function () {
                             totalPrice = sprice + cprize + tprice;
                         }
                     }
-                    else if (inputcrust === "deep dish") {
+                    else if (inputcrust === "Deep Dish") {
                         cprize = 400;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -215,7 +215,7 @@ $(document).ready(function () {
                             totalPrice = sprice + cprize + tprice;
                         }
                     }
-                    else if (inputcrust === "stuffed") {
+                    else if (inputcrust === "Stuffed") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -255,7 +255,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "cast iron") {
+                    else if (inputcrust === "Cast Iron") {
                         cprize = 500;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -295,7 +295,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "flat bread") {
+                    else if (inputcrust === "Flatbread") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -338,9 +338,9 @@ $(document).ready(function () {
 
 
                 }
-                if (inputsize === "medium") {
+                if (inputsize === "Medium") {
                     sprice = 1500;
-                    if (inputcrust === "New england style") {
+                    if (inputcrust === "New Greek Style") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -381,7 +381,7 @@ $(document).ready(function () {
 
 
                     }
-                    else if (inputcrust === "grilled") {
+                    else if (inputcrust === "Grilled") {
                         cprize = 400;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -421,7 +421,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "deep dish") {
+                    else if (inputcrust === "Deep Dish") {
                         cprize = 400;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -461,7 +461,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "stuffed") {
+                    else if (inputcrust === "Stuffed") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -501,7 +501,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "cast iron") {
+                    else if (inputcrust === "Cast Iron") {
                         cprize = 500;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -541,7 +541,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "flat bread") {
+                    else if (inputcrust === "Flatbread") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -584,9 +584,9 @@ $(document).ready(function () {
 
 
                 }
-                if (inputsize === "large") {
+                if (inputsize === "Large") {
                     sprice = 2000;
-                    if (inputcrust === "New england style") {
+                    if (inputcrust === "New Greek Style") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -627,7 +627,7 @@ $(document).ready(function () {
 
 
                     }
-                    else if (inputcrust === "grilled") {
+                    else if (inputcrust === "Grilled") {
                         cprize = 400;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -667,7 +667,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "deep dish") {
+                    else if (inputcrust === "Deep Dish") {
                         cprize = 400;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -707,7 +707,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "stuffed") {
+                    else if (inputcrust === "Stuffed") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -747,7 +747,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "cast iron") {
+                    else if (inputcrust === "Cast Iron") {
                         cprize = 500;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -787,7 +787,7 @@ $(document).ready(function () {
                         }
 
                     }
-                    else if (inputcrust === "flat bread") {
+                    else if (inputcrust === "Flatbread") {
                         cprize = 300;
                         if (inputtopping === "Sausage, caramelized onions, and fennel") {
                             tprice = 500;
@@ -830,7 +830,8 @@ $(document).ready(function () {
                 }
                 return totalPrice;
             }
-            $("#total").text(" "+ totalprice(inputsize, inputcrust, inputtopping) +"rwf")
+            $("#total").text(" "+ total(inputsize,inputcrust,inputtopping) +"rwf")
+            // console.log(total(inputsize,inputcrust,inputtopping));
             })
 
 
